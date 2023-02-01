@@ -1,0 +1,83 @@
+
+.flexbox-tittel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+#tittel-tekst {
+  font-size: 40px;
+  font-weight: bold;
+  color: grey;
+}
+
+
+nav ul li {
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+a {
+    
+    text-decoration: none;
+    
+}
+
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 0px;
+    color: grey;
+    border: 1px solid grey;
+    font-size: 40px;
+
+
+}
+
+button:hover {
+    background-color: turquoise;
+    color: white;
+    border: 1px;
+    display: block;
+}
+
+a {
+    color: turquoise;
+    text-decoration: underline;
+}
+
+li {
+  color: grey;
+}
+
+p {
+  color: grey;
+}
+
+h3 {
+  color: grey;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+
